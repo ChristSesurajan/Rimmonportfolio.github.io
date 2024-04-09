@@ -168,3 +168,7 @@ strong{
      margin-bottom: 150px;
   }
 }
+
+#js1 , #js2{
+    display: none;
+}
