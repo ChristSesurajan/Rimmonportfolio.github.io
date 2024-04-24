@@ -81,12 +81,8 @@ main{
     text-align: center;
     
 }
-#wel{
-    text-align: center;
-    font-size: 40px;
-    color:#00ffff;
-}
-#welcome{
+
+#welcomeco, #welcome{
     text-align: center;
     font-size: 40px;
     color:#00ffff;
