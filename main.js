@@ -3,11 +3,28 @@
 let j = document.getElementById("ho1");
 let r = document.getElementById("js1");
 
+
+
+let mar = document.getElementById("mark");
+
+function invi() {
+    mar.style.display = 'none';
+}
+
+
+function backn() {
+  mar.style.display = 'inline';
+}
+setInterval(backn,750);
+setInterval(invi,650);
+
+
 var speed = 400;
 var speed2 = 500;
 var str = document.getElementById('wel');
 var i = 0;
 var isRemoving = false;
+
 
 var messages = ['Welcome','வணக்கம்','Bienvenu','いらっしゃいませ','환영','Willkommen'];
 
