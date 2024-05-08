@@ -91,38 +91,38 @@ let reac=document.getElementById('rea');
 let redu=document.getElementById('rearo');
 
 htm.onmouseover=function(){
-  htm.src='./images/htmlorg.jpg'
+  htm.src='images/htmlorg.jpg'
 }
 
 htm.onmouseout=function(){
-  htm.src='./images/htmlblack.png'
+  htm.src='images/htmlblack.png'
 }
 
 cd.onmouseover=function(){
-  cd.src='./images/csssorg.jpg'
+  cd.src='images/csssorg.jpg'
 }
 
 cd.onmouseout=function(){
-  cd.src='./images/cssblack.png'
+  cd.src='images/cssblack.png'
 }
 javas.onmouseover=function(){
-  javas.src='./images/jsorg.png'
+  javas.src='images/jsorg.png'
 }
 
 javas.onmouseout=function(){
-  javas.src='./images/javablack.png'
+  javas.src='images/javablack.png'
 }
 reac.onmouseover=function(){
-  reac.src='./images/reactorg.jpg'
+  reac.src='images/reactorg.jpg'
 }
 
 reac.onmouseout=function(){
-  reac.src='./images/reactblack.webp'
+  reac.src='images/reactblack.webp'
 }
 redu.onmouseover=function(){
-  redu.src='./images/reduxorg.webp'
+  redu.src='images/reduxorg.webp'
 }
 
 redu.onmouseout=function(){
-  redu.src='./images/reduxblack.webp'
+  redu.src='images/reduxblack.webp'
 }
