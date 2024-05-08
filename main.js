@@ -82,3 +82,47 @@ a.onmouseover = function() {
     // To change the color of the element that triggered the event (in this case, 'j')
     b.style.display = 'inline';
 }
+
+
+let htm=document.getElementById('ht');
+let cd=document.getElementById('rot');
+let javas=document.getElementById('jssro');
+let reac=document.getElementById('rea');
+let redu=document.getElementById('rearo');
+
+htm.onmouseover=function(){
+  htm.src='./images/htmlorg.jpg'
+}
+
+htm.onmouseout=function(){
+  htm.src='./images/htmlblack.png'
+}
+
+cd.onmouseover=function(){
+  cd.src='./images/csssorg.jpg'
+}
+
+cd.onmouseout=function(){
+  cd.src='./images/cssblack.png'
+}
+javas.onmouseover=function(){
+  javas.src='./images/jsorg.png'
+}
+
+javas.onmouseout=function(){
+  javas.src='./images/javablack.png'
+}
+reac.onmouseover=function(){
+  reac.src='./images/reactorg.jpg'
+}
+
+reac.onmouseout=function(){
+  reac.src='./images/reactblack.webp'
+}
+redu.onmouseover=function(){
+  redu.src='./images/reduxorg.webp'
+}
+
+redu.onmouseout=function(){
+  redu.src='./images/reduxblack.webp'
+}
