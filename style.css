@@ -155,65 +155,6 @@ strong{
     color:#00ffff;
 }
 
-@media screen and (max-width: 630px) {
-   header{
-        margin: 0px 10px 0px 0px;
-        padding: 30px 0px 0px 0px;
-   }
-   #navbar{
-    background-color:none;
-    
-     
-    margin: 50px 150px 50px 180px;
-    padding: 20px 10px 0px 10px;
-    
-
-   }
-   main{
-    margin: 0px 0px 0px 0px;
-    padding: 20px 0px 20px 0px;
-   
-   }
-   #welcomeco{
-        padding-top: 90px;
-        
-   }
-   footer{
-        margin: 0px 0px 0px 0px;
-        padding: 1px 1px 1px 1px;
-   }
-   #education{
-    border: none;
-   }
-  #exp{
-     margin-bottom: 150px;
-  }
-  
-  #rea ,#red{
-    margin-top: 20px;
-  }
-  #ht,#cs,#jss{
-   margin-right: 10px;
-  }
-}
-
-#js1 , #js2{
-    display: none;
-}
-
-@keyframes opac {
-    from{
-        
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    
-    to{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-
 #skills{
     margin-top: 500px;
    
@@ -291,3 +232,64 @@ li #noro{
 #note{
     opacity: 0.3;
 }
+
+
+@media screen and (max-width: 630px) {
+   header{
+        margin: 0px 10px 0px 0px;
+        padding: 30px 0px 0px 0px;
+   }
+   #navbar{
+    background-color:none;
+    
+     
+    margin: 50px 150px 50px 180px;
+    padding: 20px 10px 0px 10px;
+    
+
+   }
+   main{
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+   
+   }
+   #welcomeco{
+        padding-top: 90px;
+        
+   }
+   footer{
+        margin: 0px 0px 0px 0px;
+        padding: 1px 1px 1px 1px;
+   }
+   #education{
+    border: none;
+   }
+  #exp{
+     margin-bottom: 150px;
+  }
+  
+  #rea ,#red{
+    margin-top: 20px;
+  }
+  #ht,#cs,#jss{
+   margin-right: 10px;
+  }
+}
+
+#js1 , #js2{
+    display: none;
+}
+
+@keyframes opac {
+    from{
+        
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
