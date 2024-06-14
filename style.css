@@ -1,0 +1,555 @@
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400; /* Regular */
+    src: url('https://fonts.gstatic.com/s/spacemono/v7/i7dMIFZifjKNF5VNfEyjU8nTEK2Tg52vmeODk4X0mNE.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700; /* Bold */
+    src: url('https://fonts.gstatic.com/s/spacemono/v7/i7dMIFZifjKNF5VNfEyjU8nTEK2Tg52vmeODl4X0mNE.woff2') format('woff2');
+  }
+
+html{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: 'Space Mono';
+
+    
+   
+  
+}
+body{
+    animation: opac 0.75s ease-in-out;
+}
+
+#title1{
+    display:flex;
+    justify-content: flex-start;
+    transition:  0.6s ease-in-out;
+}
+header #navbar{
+    float: right;
+    margin: -75px 30px 0px 0px;
+    
+   
+   
+}
+#navbar li{
+   display: inline;
+   
+   
+
+}
+#navbar ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none; 
+    transition:  1s ease-in-out;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin: 10px;
+    font-size: 23px;
+    text-shadow:  0.5px 0.5px #24c200;
+    
+}
+
+
+#title1:hover{
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-shadow:  1.5px 1.5px #24c200;
+    cursor: pointer;
+    
+} 
+
+  
+#welcome{
+    margin-top: 50px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+
+ #pass1{
+    margin-top:-20px;
+    text-align: center;
+    font-size: 18px;
+   
+
+
+}
+
+#education{
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+#exp{
+    float: right;
+    margin-right: 100px;
+    margin-top: -225px;
+}
+
+#education:hover{
+    background: linear-gradient(to right, #df2c23c3, #f9d423);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+#exp:hover{
+    background: linear-gradient(to left, #df2c23c3, #f9d423);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+#myimg{
+    position: absolute;
+    margin-top: -930px;
+    margin-left: 150px;
+   
+    transform: scale3d(0.2,0.2,0.2);
+    border:20px solid rgb(2, 164, 113);
+    border-radius: 3%;
+}
+
+
+#fire{
+    float: right;
+    background-color: black;
+    color: rgb(2, 164, 113);
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: -40px;
+    font-family: 'Space Mono';
+    border: none;
+   
+}
+#fire:hover{
+    color:red;
+}
+
+
+#ship{
+    background-image: url('./images/ship.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 700px;
+    height: 400px;
+    transform: scale3d(0.5,0.5,0.5);
+    mix-blend-mode: screen;
+    margin-left: 999px;
+    margin-top: -95px;
+    
+  
+}
+
+
+
+
+
+
+#moon {
+    top: -550px;
+   
+    background-image: url('/images/moon.jpeg');
+    width: 100%;
+    height: 1100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    transform: scale3d(0.7,0.7,0.7);
+    animation-fill-mode: forwards;
+    mix-blend-mode: screen;
+   
+    
+   
+}
+
+#earth{
+  
+    left: 460px;
+    background-image: url('/images/earth.jpg');
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 200vh;
+    z-index: 1;
+    animation-fill-mode: forwards ;
+    mix-blend-mode: screen;
+    
+    
+    
+
+
+    
+}
+
+
+#Projec{
+    margin-top: 150px;
+}
+
+#message{
+    font-size: larger;
+    font-weight: bold;
+}
+
+#skills ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+   
+   
+}
+#skills{
+    margin-top: 100px;
+}
+#skills ul li{
+    z-index: 99;
+
+}
+#ht{
+    margin-top: 10px;
+}
+#skills ul img{
+    filter: grayscale(100%);
+    max-width: 100px;
+}
+#jss{
+    transform: scaleY(0.85);
+    margin-top: 6px;
+
+    
+}
+#cs{
+    transform: scaleY(1.2);
+    
+}
+#red{
+    transform: scaleY(1.2);
+    margin-top: 10px;
+    
+}
+#heski{
+   
+    font-size: 25px;
+    animation: opac 0.75s ease-in-out;
+}
+#rea{
+    margin-top: 25px;
+}
+#lis{
+    padding-top: 50px;
+}
+
+#ht:hover{
+    transition: 1s ease;
+    transform: rotate(360deg);
+    filter: grayscale(0%);
+}
+#rot:hover{
+    transform: rotate(360deg);
+    transition: 1s ease;  
+    filter: grayscale(0%);
+}
+
+#jssro:hover{
+    transform: rotate(360deg);
+    transition: 1s ease;  
+    filter: grayscale(0%);
+}
+
+#rea:hover{
+    transform: rotate(360deg);
+    transition: 1s ease; 
+    filter: grayscale(0%); 
+}
+
+#rearo:hover{
+    transform: rotate(360deg);
+    transition: 1s ease;  
+    filter: grayscale(0%);
+}
+figcaption{
+    text-align: center;
+    color: #00ffff;
+    font-size: 15px;
+    font-weight: bold;
+   
+
+  
+    
+}
+
+
+
+#pass1::after{
+    content: '_';
+    animation: blink 700ms infinite;
+}
+
+
+#spu{
+    margin-top: 15px;
+}
+li #noro{
+    transform: none;
+}
+#note{
+    opacity: 0.3;
+}
+
+#footer{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    z-index: 999;
+    animation: opac 0.75s ease-in-out;
+    
+}
+
+
+#tagfor{
+    margin: -10px;
+    text-decoration: none;
+    color: #00ffff ;
+    font-weight: bold;
+    transition:  500ms ease-in-out;
+    
+}
+#tagfor:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    margin: 15px;
+    text-shadow:  1px 1px #24c200;
+
+    
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+    transition:  500ms ease-in-out;
+  
+    
+}
+
+#footer a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    margin: 15px;
+    text-shadow:  1px 1px #24c200;
+    
+}
+body{
+    animation: opac 0.75s ease-in-out;
+
+}
+.about{
+    transition: ease;
+}
+.about.animate{
+    animation: opac 3s;
+}
+
+
+
+@keyframes shrik {
+    from{
+        transform: scale3d(0.7,0.7,0.7);
+    }
+    to{
+        
+        
+        transform: scale3d(0.17,0.17,0.17);
+    }
+    
+}
+
+@keyframes zoomin {
+    from{
+        transform: scale3d(0.17,0.17,0.17);
+        
+    }
+    to{
+        
+        
+        transform: scale3d(0.7,0.7,0.7);
+        
+    }
+    
+}
+
+@keyframes movedown {
+    100%{
+        top: 450px;
+    }
+    50%{
+        top: 1000px;
+    }
+    25%{
+        top: 2000px;
+    }
+    0%{
+        top: 3000px;
+    }
+    
+}
+
+@keyframes moveup {
+    100%{
+        top: 1000px;
+    }
+    50%{
+        top: 850px;
+    }
+    25%{
+        top: 700px;
+    }
+    
+    0%{
+        top: 450px;
+    }
+    
+}
+
+@keyframes rotateAnimation {
+    /* Rotate element 360 degrees */
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  @keyframes shipmove {
+    from{
+        transform: translateX(0);
+        transform: scale3d(0.5,0.5,0.5);
+    }
+    to{
+        transform: translateX(-2000px);
+        
+        
+    }
+    
+  }
+
+
+  @keyframes opac {
+    from{
+        
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@media screen and (max-width: 940px) {
+    header{
+        display: flex;
+        
+    }
+    #title1{
+        margin-top: -10px;
+    }
+    header nav{
+        align-content: center;
+        
+        
+    }
+    header a{
+     
+        
+        flex-wrap: wrap;
+    }
+
+    #moon{
+        top:-365px;
+        width: 650px;
+        height: 100vh;
+        right:0px;
+        transform: scale3d(0.2,0.2,0.2);
+        
+    }
+    #myimg{
+        right: 60px;
+        width: 100%;
+        transform: scale3d(0.2,0.2,0.2);
+        border:none;
+    }
+    #ship{
+        top: 340px;
+        right: 1070px;
+        position: relative;
+        transform: scale3d(0.3,0.3,0.3);
+    }
+    #fire{
+        margin-top: 350px;
+    }
+   #education,#exp{
+    display: flex;
+    
+   }
+   #education{
+    margin-left: 2px;
+   }
+   #exp{
+    margin-top: 10px;
+   }
+   #earth{
+        width: 130%;
+        height: 90vh;
+        position: fixed;
+        float: left;
+        left: -90px;
+        animation: movbdown 3s forwards;
+   }
+   @keyframes movbdown {
+    100%{
+        top: 750px;
+    }
+    50%{
+        top: 1000px;
+    }
+    25%{
+        top: 2000px;
+    }
+    0%{
+        top: 3000px;
+    }
+    
+}
+}
+
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+ 
